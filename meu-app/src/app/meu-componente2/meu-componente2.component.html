@@ -1,0 +1,10 @@
+<ul>
+    <li *ngFor="let item of myList">Item {{ item }} </li>
+</ul>
+
+<template [ngIf]="isVisible">
+    <p> 
+        {{ aluno?.dados?.nome }}
+    </p>
+</template>
+
