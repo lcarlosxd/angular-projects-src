@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListComponent implements OnInit {
 
+  nameFilter1 = '';
   nameFilter = '';
   selectedPkm = null;
 
